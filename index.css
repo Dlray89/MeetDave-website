@@ -1,4 +1,4 @@
-.container{
+/* .container{
     display: inline-block;
     cursor: pointer;
 }
@@ -26,46 +26,100 @@
     -webkit-transform: rotate(45deg) translate(-8px,-8px);
     transform: rotate(45deg) translate(-8px, -8px);
 
+} */
+
+/*888888888888888888888888888888888888888888888888888888888888*/
+.navBarC{
+    width: 89.9%;
+    height: 60%;
+    padding: 5%;
+    border: solid 2px blue;
+    display: flex;
+    align-items: center;
 }
 
-/*above is the styling for the hamburger menu*/
+ .navBarC .navLinks{
+        border: solid 2px red;
+        padding:3%;
+        display: flex;
+        justify-content: space-around;
+        width: 30%;
+        margin-right: 8%;
+    }
 
-body{
-    font-family: "roboto", sans-serif;
+h1{
+    font-size: 3em;
+    border: solid 2px green;
+}
+
+
+
+body {
+    font-family: "Roboto", sans-serif;
     font-weight: 700;
     padding: 0;
     margin: 0;
-}
-
-.spacer{
-    background: red;
+  }
+  
+  .spacer {
+    background: #373B44;  
+    background: -webkit-linear-gradient(to right, #4286f4, #373B44);  
+    background: linear-gradient(to right, #4286f4, #373B44); 
     height: 100vh;
     display: flex;
     flex-direction: column;
     align-items: center;
     justify-content: center;
-    color: black;
-    font-size: 2em
-}
+    color: white;
+    font-size: 2em;
+  }
 
-.wrapper{
+  .spacer2{
+    background: #0F2027;  /* fallback for old browsers */
+background: -webkit-linear-gradient(to right, #2C5364, #203A43, #0F2027);  /* Chrome 10-25, Safari 5.1-6 */
+background: linear-gradient(to right, #2C5364, #203A43, #0F2027); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    color: white;
+    font-size: 2em;
+  }
+  
+  
+  .wrapper {
     width: 300px;
     height: 300px;
     position: relative;
     margin: 60px auto;
-}
+ 
+  }
 
-.parent{
+  .wrapperCON{
+      display: flex;
+  }
+  
+  .parent,
+  .child {
+    position: absolute;
+    border-radius: 8px;
+   
+
+  }
+  
+  .parent {
     width: 100%;
     height: 100%;
     background: black;
-}
-
-.child{
+  }
+  
+  .child {
     width: 200px;
     height: 100px;
-    background: red;
+    background: #42a6e0;
     right: -50px;
-    left: -20px
-}
-
+    bottom: -20px;
+  }
+  
