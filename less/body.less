@@ -1,0 +1,444 @@
+body {
+    font-family: "Roboto", sans-serif;
+    font-weight: 700;
+    padding    : 0;
+    margin     : 0;
+    background : #fffde4;
+    overflow-x: hidden;
+
+    .mainContainer {
+        height         : 100vh;
+        width: 100%;
+        background     : #005aa7;
+        background     : linear-gradient(to top, #005aa7, #fffde4);
+        display        : flex;
+        flex-direction : column;
+        align-items    : center;
+        justify-content: center;
+        color          : white;
+        font-size      : 2em;
+        box-sizing     : border-box;
+
+
+
+
+        .introContainer {
+            width      : 80%;
+            height     : 90%;
+            margin     : 60px auto;
+            border     : solid 2px #005aa7;
+            text-align : center;
+            align-items: center;
+            display    : flex;
+            box-sizing : border-box;
+            background : #ADA996;
+            background : linear-gradient(to right, #EAEAEA, #DBDBDB, #F2F2F2, #ADA996);
+
+
+
+
+
+            .intro {
+                width : 100%;
+                height: 100%;
+
+
+                h2 {
+
+                    font-size: 2em;
+                    color: #003973;
+
+
+
+                }
+
+                p {
+                    border    : solid 2px #005aa7;
+                    width     : 100%;
+                    font-size : 0.9em;
+                    height    : 64.4%;
+                    padding   : 4%;
+                    box-sizing: border-box;
+                    background: #3a7bd5;
+                    /* fallback for old browsers */
+                    background: linear-gradient(to top, #3a6073, #3a7bd5);
+                    /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+
+
+
+                }
+
+            }
+
+            .ImgContainer {
+                background-image: url("../DAP.PNG");
+                background-repeat: no-repeat;
+                background-position: center;
+                background-size: cover;
+                border    : solid 2px #005aa7;
+                width     : 50%;
+                height    : 100%;
+
+            }
+
+            //close parent
+        }
+
+        //close wrapper
+    }
+
+    //ends spacer 1
+
+    .skillsAndJobsMain {
+        background: #005aa7;
+        /* fallback for old browsers */
+        background: linear-gradient(to bottom, #005aa7, #fffde4);
+        /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+
+        height         : 100vh;
+        display        : flex;
+        flex-direction : column;
+        align-items    : center;
+        justify-content: center;
+        color          : #005aa7;
+        font-size      : 2em;
+        padding        : 3%;
+
+
+
+
+        .skillsAndJobsContainer {
+            width          : 100%;
+            height         : 100%;
+            padding        : 3%;
+            box-sizing     : border-box;
+            margin         : 60px auto;
+            display        : flex;
+            justify-content: space-evenly;
+
+
+            .skills {
+                width        : 40%;
+                height       : 95%;
+                padding      : 3%;
+                background   : #ADA996;
+                background   : linear-gradient(to right, #EAEAEA, #DBDBDB, #F2F2F2, #ADA996);
+                border       : solid 2px #ADA996;
+                border-radius: 150px;
+                text-align   : center;
+                box-sizing   : border-box;
+
+                h3 {
+                    font-size : 1.2em;
+                    margin-top: 3%;
+                }
+
+                p {
+                    font-size: 0.7em
+                }
+            }
+
+
+            .jobs {
+                width        : 40%;
+                height       : 95%;
+                background   : #ADA996;
+                background   : linear-gradient(to right, #EAEAEA, #DBDBDB, #F2F2F2, #ADA996);
+                border       : solid 2px #ADA996;
+                border-radius: 150px;
+                text-align   : center;
+
+                h3 {
+                    font-size: 1.2em;
+                }
+
+                p {
+                    font-size: 0.7em
+                }
+
+            }
+
+            //close child
+        }
+
+        //close parent
+    }
+
+    //close wrapper
+}
+
+//ends spacer 1
+
+.projects {
+    text-align: center;
+    padding   : 5%;
+    font-size : 2em;
+    color     : #005aa7;
+
+
+}
+
+
+
+.wrapperCON {
+    display        : flex;
+    padding        : 1%;
+    justify-content: space-evenly;
+    align-items    : center;
+    background     : #005aa7;
+    background     : linear-gradient(to top, #005aa7, #fffde4);
+
+
+
+
+    .wrapper2 {
+        width   : 300px;
+        height  : 300px;
+        position: relative;
+        margin  : 60px auto;
+
+
+        .parent2 {
+            width        : 100%;
+            height       : 100%;
+            background   : linear-gradient(to right, #EAEAEA, #DBDBDB, #F2F2F2, #ADA996);
+            border       : solid 2px #ADA996;
+            color        : #005aa7;
+            text-align   : center;
+            border-radius: 8px;
+
+
+
+
+            .child2 {
+                width          : 200px;
+                height         : 100px;
+                background     : #003973;
+                background     : linear-gradient(to right, #E5E5BE, #003973);
+                position       : absolute;
+                border-radius  : 8px;
+                right          : -50px;
+                bottom         : -50px;
+                border         : solid 2px#003973;
+                display        : flex;
+                flex-direction : column;
+                align-items    : center;
+                text-align     : center;
+                justify-content: space-around;
+
+                a{
+                    width: 100%;
+                
+                button {
+                    padding      : 3%;
+                    text-align   : center;
+                    width        : 55%;
+                    border-radius: 20px;
+                    background   : linear-gradient(to right, #EAEAEA, #DBDBDB, #F2F2F2, #ADA996);
+                }
+            }
+            }
+
+            //close child
+        }
+
+        //closes parent
+    }
+
+
+    .wrapper3 {
+        width   : 300px;
+        height  : 300px;
+        position: relative;
+        margin  : 60px auto;
+
+        .parent3 {
+            width        : 100%;
+            height       : 100%;
+            border       : solid 2px #ADA996;
+            background   : linear-gradient(to right, #EAEAEA, #DBDBDB, #F2F2F2, #ADA996);
+            border       : solid 2px #ADA996;
+            color        : #005aa7;
+            text-align   : center;
+            border-radius: 8px;
+
+
+            .child3 {
+                width          : 200px;
+                height         : 100px;
+                background     : #003973;
+                background     : linear-gradient(to right, #E5E5BE, #003973);
+                position       : absolute;
+                border-radius  : 8px;
+                right          : -50px;
+                bottom         : -50px;
+                border         : solid 2px#003973;
+                display        : flex;
+                flex-direction : column;
+                align-items    : center;
+                text-align     : center;
+                justify-content: space-around;
+
+                a{
+                    width: 100%;
+                
+                button {
+                    padding      : 3%;
+                    text-align   : center;
+                    width        : 55%;
+                    border-radius: 20px;
+                    background   : linear-gradient(to right, #EAEAEA, #DBDBDB, #F2F2F2, #ADA996);
+                }
+            }
+
+
+                
+
+                //child
+
+            }
+        }
+    }
+
+    //parent
+
+
+
+    //wrapper
+
+    .wrapper4 {
+
+        width   : 300px;
+        height  : 300px;
+        position: relative;
+        margin  : 60px auto;
+
+        .parent4 {
+
+            width        : 100%;
+            height       : 100%;
+            border       : solid 2px #ADA996;
+            background   : linear-gradient(to right, #EAEAEA, #DBDBDB, #F2F2F2, #ADA996);
+            border       : solid 2px #ADA996;
+            color        : #005aa7;
+            text-align   : center;
+            border-radius: 8px;
+
+
+            .child4 {
+                width        : 200px;
+                height       : 100px;
+                background   : #42a6e0;
+                position     : absolute;
+                border-radius: 8px;
+                right        : -50px;
+                bottom       : -50px;
+
+                width          : 200px;
+                height         : 100px;
+                background     : #003973;
+                background     : linear-gradient(to right, #E5E5BE, #003973);
+                position       : absolute;
+                border-radius  : 8px;
+                right          : -50px;
+                bottom         : -50px;
+                border         : solid 2px#003973;
+                display        : flex;
+                flex-direction : column;
+                align-items    : center;
+                text-align     : center;
+                justify-content: space-around;
+
+                a{
+                    width: 100%;
+                
+                button {
+                    padding      : 3%;
+                    text-align   : center;
+                    width        : 55%;
+                    border-radius: 20px;
+                    background   : linear-gradient(to right, #EAEAEA, #DBDBDB, #F2F2F2, #ADA996);
+                }
+            }
+
+
+
+
+            }
+        }
+    }
+
+    //closes wrapper4
+}
+
+///close container for wrapper
+
+.socialMediaAndContact {
+    background: #003973;
+    background: linear-gradient(to bottom, #E5E5BE, #003973);
+    display        : flex;
+    flex-direction : row;
+    align-items    : center;
+    justify-content: space-evenly;
+    color          : white;
+    font-size      : 2em;
+    height         : 70vh;
+    padding: 3%;
+    width          : 100%;
+
+    .social {
+        border       : solid 2px yellow;
+        width        : 30%;
+        height       : 90%;
+        padding      : 1%;
+        text-align   : center;
+        border-radius: 150px;
+        border       : solid 2px #ADA996;
+        background   : linear-gradient(to right, #EAEAEA, #DBDBDB, #F2F2F2, #ADA996);
+        border       : solid 2px #ADA996;
+        color        : #005aa7;
+        text-align   : center;
+        box-sizing: border-box;
+        display: flex;
+        flex-direction: column;
+      
+
+        h3 {
+            font-size: 1em;
+        }
+
+        P {
+            font-size: 0.5em;
+        }
+
+    }
+
+    .announcments {
+        border       : solid 2px yellow;
+        width        : 30%;
+        height       : 90%;
+        padding      : 2%;
+        text-align   : center;
+        border-radius: 150px;
+        border       : solid 2px #ADA996;
+        background   : linear-gradient(to right, #EAEAEA, #DBDBDB, #F2F2F2, #ADA996);
+        border       : solid 2px #ADA996;
+        color        : #005aa7;
+        text-align   : center;
+        box-sizing: border-box;
+
+        h3 {
+            font-size: 1.2em;
+        }
+
+        P {
+            font-size: 0.7em;
+        }
+
+    }
+
+
+
+
+
+}

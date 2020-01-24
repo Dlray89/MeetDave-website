@@ -1,0 +1,343 @@
+.navBarC {
+  width: 100%;
+  height: 25%;
+  padding: 2%;
+  display: flex;
+  align-items: center;
+  background: #005aa7;
+  /* fallback for old browsers */
+  background: linear-gradient(to bottom, #005aa7, #fffde4);
+  /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+}
+.navBarC .navLinks {
+  padding: 1%;
+  display: flex;
+  justify-content: space-around;
+  width: 20%;
+  margin-right: 15%;
+  color: black;
+  font-size: 2em;
+}
+.navBarC .navLinks a {
+  text-decoration: none;
+  color: black;
+}
+.navBarC h1 {
+  font-size: 4em;
+  width: 20vw;
+  text-align: center;
+}
+.icons {
+  margin-left: 15%;
+  width: 20%;
+  display: flex;
+  justify-content: space-evenly;
+  padding: 1%;
+}
+body {
+  font-family: "Roboto", sans-serif;
+  font-weight: 700;
+  padding: 0;
+  margin: 0;
+  background: #fffde4;
+  overflow-x: hidden;
+}
+body .mainContainer {
+  height: 100vh;
+  width: 100%;
+  background: #005aa7;
+  background: linear-gradient(to top, #005aa7, #fffde4);
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  color: white;
+  font-size: 2em;
+  box-sizing: border-box;
+}
+body .mainContainer .introContainer {
+  width: 80%;
+  height: 90%;
+  margin: 60px auto;
+  border: solid 2px #005aa7;
+  text-align: center;
+  align-items: center;
+  display: flex;
+  box-sizing: border-box;
+  background: #ADA996;
+  background: linear-gradient(to right, #EAEAEA, #DBDBDB, #F2F2F2, #ADA996);
+}
+body .mainContainer .introContainer .intro {
+  width: 100%;
+  height: 100%;
+}
+body .mainContainer .introContainer .intro h2 {
+  font-size: 2em;
+  color: #003973;
+}
+body .mainContainer .introContainer .intro p {
+  border: solid 2px #005aa7;
+  width: 100%;
+  font-size: 0.9em;
+  height: 64.4%;
+  padding: 4%;
+  box-sizing: border-box;
+  background: #3a7bd5;
+  /* fallback for old browsers */
+  background: linear-gradient(to top, #3a6073, #3a7bd5);
+  /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+}
+body .mainContainer .introContainer .ImgContainer {
+  background-image: url("../DAP.PNG");
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+  border: solid 2px #005aa7;
+  width: 50%;
+  height: 100%;
+}
+body .skillsAndJobsMain {
+  background: #005aa7;
+  /* fallback for old browsers */
+  background: linear-gradient(to bottom, #005aa7, #fffde4);
+  /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+  height: 100vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  color: #005aa7;
+  font-size: 2em;
+  padding: 3%;
+}
+body .skillsAndJobsMain .skillsAndJobsContainer {
+  width: 100%;
+  height: 100%;
+  padding: 3%;
+  box-sizing: border-box;
+  margin: 60px auto;
+  display: flex;
+  justify-content: space-evenly;
+}
+body .skillsAndJobsMain .skillsAndJobsContainer .skills {
+  width: 40%;
+  height: 95%;
+  padding: 3%;
+  background: #ADA996;
+  background: linear-gradient(to right, #EAEAEA, #DBDBDB, #F2F2F2, #ADA996);
+  border: solid 2px #ADA996;
+  border-radius: 150px;
+  text-align: center;
+  box-sizing: border-box;
+}
+body .skillsAndJobsMain .skillsAndJobsContainer .skills h3 {
+  font-size: 1.2em;
+  margin-top: 3%;
+}
+body .skillsAndJobsMain .skillsAndJobsContainer .skills p {
+  font-size: 0.7em;
+}
+body .skillsAndJobsMain .skillsAndJobsContainer .jobs {
+  width: 40%;
+  height: 95%;
+  background: #ADA996;
+  background: linear-gradient(to right, #EAEAEA, #DBDBDB, #F2F2F2, #ADA996);
+  border: solid 2px #ADA996;
+  border-radius: 150px;
+  text-align: center;
+}
+body .skillsAndJobsMain .skillsAndJobsContainer .jobs h3 {
+  font-size: 1.2em;
+}
+body .skillsAndJobsMain .skillsAndJobsContainer .jobs p {
+  font-size: 0.7em;
+}
+.projects {
+  text-align: center;
+  padding: 5%;
+  font-size: 2em;
+  color: #005aa7;
+}
+.wrapperCON {
+  display: flex;
+  padding: 1%;
+  justify-content: space-evenly;
+  align-items: center;
+  background: #005aa7;
+  background: linear-gradient(to top, #005aa7, #fffde4);
+}
+.wrapperCON .wrapper2 {
+  width: 300px;
+  height: 300px;
+  position: relative;
+  margin: 60px auto;
+}
+.wrapperCON .wrapper2 .parent2 {
+  width: 100%;
+  height: 100%;
+  background: linear-gradient(to right, #EAEAEA, #DBDBDB, #F2F2F2, #ADA996);
+  border: solid 2px #ADA996;
+  color: #005aa7;
+  text-align: center;
+  border-radius: 8px;
+}
+.wrapperCON .wrapper2 .parent2 .child2 {
+  width: 200px;
+  height: 100px;
+  background: #003973;
+  background: linear-gradient(to right, #E5E5BE, #003973);
+  position: absolute;
+  border-radius: 8px;
+  right: -50px;
+  bottom: -50px;
+  border: solid 2px #003973;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  text-align: center;
+  justify-content: space-around;
+}
+.wrapperCON .wrapper2 .parent2 .child2 a {
+  width: 100%;
+}
+.wrapperCON .wrapper2 .parent2 .child2 a button {
+  padding: 3%;
+  text-align: center;
+  width: 55%;
+  border-radius: 20px;
+  background: linear-gradient(to right, #EAEAEA, #DBDBDB, #F2F2F2, #ADA996);
+}
+.wrapperCON .wrapper3 {
+  width: 300px;
+  height: 300px;
+  position: relative;
+  margin: 60px auto;
+}
+.wrapperCON .wrapper3 .parent3 {
+  width: 100%;
+  height: 100%;
+  background: linear-gradient(to right, #EAEAEA, #DBDBDB, #F2F2F2, #ADA996);
+  border: solid 2px #ADA996;
+  color: #005aa7;
+  text-align: center;
+  border-radius: 8px;
+}
+.wrapperCON .wrapper3 .parent3 .child3 {
+  width: 200px;
+  height: 100px;
+  background: #003973;
+  background: linear-gradient(to right, #E5E5BE, #003973);
+  position: absolute;
+  border-radius: 8px;
+  right: -50px;
+  bottom: -50px;
+  border: solid 2px #003973;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  text-align: center;
+  justify-content: space-around;
+}
+.wrapperCON .wrapper3 .parent3 .child3 a {
+  width: 100%;
+}
+.wrapperCON .wrapper3 .parent3 .child3 a button {
+  padding: 3%;
+  text-align: center;
+  width: 55%;
+  border-radius: 20px;
+  background: linear-gradient(to right, #EAEAEA, #DBDBDB, #F2F2F2, #ADA996);
+}
+.wrapperCON .wrapper4 {
+  width: 300px;
+  height: 300px;
+  position: relative;
+  margin: 60px auto;
+}
+.wrapperCON .wrapper4 .parent4 {
+  width: 100%;
+  height: 100%;
+  background: linear-gradient(to right, #EAEAEA, #DBDBDB, #F2F2F2, #ADA996);
+  border: solid 2px #ADA996;
+  color: #005aa7;
+  text-align: center;
+  border-radius: 8px;
+}
+.wrapperCON .wrapper4 .parent4 .child4 {
+  background: #42a6e0;
+  width: 200px;
+  height: 100px;
+  background: #003973;
+  background: linear-gradient(to right, #E5E5BE, #003973);
+  position: absolute;
+  border-radius: 8px;
+  right: -50px;
+  bottom: -50px;
+  border: solid 2px #003973;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  text-align: center;
+  justify-content: space-around;
+}
+.wrapperCON .wrapper4 .parent4 .child4 a {
+  width: 100%;
+}
+.wrapperCON .wrapper4 .parent4 .child4 a button {
+  padding: 3%;
+  text-align: center;
+  width: 55%;
+  border-radius: 20px;
+  background: linear-gradient(to right, #EAEAEA, #DBDBDB, #F2F2F2, #ADA996);
+}
+.socialMediaAndContact {
+  background: #003973;
+  background: linear-gradient(to bottom, #E5E5BE, #003973);
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: space-evenly;
+  color: white;
+  font-size: 2em;
+  height: 70vh;
+  padding: 3%;
+  width: 100%;
+}
+.socialMediaAndContact .social {
+  border: solid 2px yellow;
+  width: 30%;
+  height: 90%;
+  padding: 1%;
+  border-radius: 150px;
+  background: linear-gradient(to right, #EAEAEA, #DBDBDB, #F2F2F2, #ADA996);
+  border: solid 2px #ADA996;
+  color: #005aa7;
+  text-align: center;
+  box-sizing: border-box;
+  display: flex;
+  flex-direction: column;
+}
+.socialMediaAndContact .social h3 {
+  font-size: 1em;
+}
+.socialMediaAndContact .social P {
+  font-size: 0.5em;
+}
+.socialMediaAndContact .announcments {
+  border: solid 2px yellow;
+  width: 30%;
+  height: 90%;
+  padding: 2%;
+  border-radius: 150px;
+  background: linear-gradient(to right, #EAEAEA, #DBDBDB, #F2F2F2, #ADA996);
+  border: solid 2px #ADA996;
+  color: #005aa7;
+  text-align: center;
+  box-sizing: border-box;
+}
+.socialMediaAndContact .announcments h3 {
+  font-size: 1.2em;
+}
+.socialMediaAndContact .announcments P {
+  font-size: 0.7em;
+}
